@@ -1,0 +1,42 @@
+{
+  "effects": {
+    "invert": {
+      "enabled": true,
+      "probability": 0.25,
+      "max_level": 1
+    },
+    "mirror": {
+      "enabled": true,
+      "probability": 0.2
+    },
+    "reverse": {
+      "enabled": true,
+      "probability": 0.15
+    },
+    "stutter_loop": {
+      "enabled": true,
+      "probability": 0.2
+    },
+    "frame_shuffle": {
+      "enabled": true,
+      "probability": 0.1
+    },
+    "chorus": {
+      "enabled": true,
+      "probability": 0.1
+    },
+    "earrape": {
+      "enabled": true,
+      "probability": 0.05
+    },
+    "rainbow_overlay": {
+      "enabled": true,
+      "probability": 0.15
+    }
+  },
+  "paths": {
+    "sources": "sources",
+    "assets": "assets",
+    "temp": "temp"
+  }
+}

@@ -1,0 +1,4 @@
+# Minimal requirements
+pillow>=6.0.0
+pywin32; platform_system == "Windows"
+comtypes; platform_system == "Windows"

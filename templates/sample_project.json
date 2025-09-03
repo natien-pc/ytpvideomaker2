@@ -1,0 +1,31 @@
+{
+  "name": "example-ytp-project",
+  "sources": [
+    "cartoon_clip_01.mp4",
+    "commercial_80s_02.mp4"
+  ],
+  "timeline": [
+    {
+      "source": "cartoon_clip_01.mp4",
+      "in": 0,
+      "out": 6.5,
+      "effects": [
+        {"name": "invert", "probability": 0.8},
+        {"name": "stutter_loop", "repeats": 3}
+      ]
+    },
+    {
+      "source": "commercial_80s_02.mp4",
+      "in": 10,
+      "out": 18,
+      "effects": [
+        {"name": "mirror", "probability": 0.4},
+        {"name": "earrape", "probability": 0.05}
+      ]
+    }
+  ],
+  "metadata": {
+    "author": "imaperson: waxonator: rest: ok:",
+    "description": "Generated YTP videos: chaotic edits & meme overlays"
+  }
+}
